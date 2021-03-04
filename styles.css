@@ -46,8 +46,15 @@ table {
 #container {
     max-width: 700px;
     margin: 0 auto;
-    margin-top: 5rem;
+    margin-top: 3rem;
     padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+    opacity: 0.9;
 }
 
 .form-group {
@@ -81,10 +88,12 @@ table {
     background-color: rgb(237, 242, 247);
     height: 36px;
     text-align: center;
+    outline-color: #0569ff;
 }
 
 .input-check {
-    width: 5%
+    width: 5%;
+    outline-color: #0569ff;
 }
 
 .button-container {
@@ -102,6 +111,7 @@ table {
     border-radius: 6px;
     height: 40px;
     font-size: 1rem;
+    outline-color: #0569ff;
 }
 
 #display {
